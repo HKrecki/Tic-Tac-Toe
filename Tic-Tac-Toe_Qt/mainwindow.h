@@ -4,8 +4,9 @@
 #include <QMainWindow>
 
 #include <QDebug>
-
 #include <assert.h>
+
+#include "gamewindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -25,6 +26,8 @@ private slots:
     void on_MainMenuWindow_Settings_PushButton_clicked();
 
     void on_Back_SettingsPage_clicked();
+
+    void on_MainMenuWindow_Singleplayer_PushButton_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -31,3 +31,9 @@ void MainWindow::on_Back_SettingsPage_clicked()
     assert(ui->stackedWidget->currentIndex() == 1);
     ui->stackedWidget->setCurrentIndex(0);
 }
+
+void MainWindow::on_MainMenuWindow_Singleplayer_PushButton_clicked()
+{
+    gamewindow *a = new gamewindow();
+    a->show();
+}
