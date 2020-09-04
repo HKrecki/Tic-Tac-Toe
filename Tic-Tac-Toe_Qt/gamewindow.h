@@ -5,6 +5,8 @@
 #include <QGraphicsScene>
 #include <QGraphicsRectItem>
 
+#include <QDebug>
+
 namespace Ui {
 class gamewindow;
 }
@@ -15,6 +17,7 @@ class gamewindow : public QWidget
 
 public:
     explicit gamewindow(QWidget *parent = nullptr);
+    explicit gamewindow(int t_boardSize, QWidget *parent = nullptr);
     ~gamewindow();
 
 

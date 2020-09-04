@@ -34,6 +34,6 @@ void MainWindow::on_Back_SettingsPage_clicked()
 
 void MainWindow::on_MainMenuWindow_Singleplayer_PushButton_clicked()
 {
-    gamewindow *a = new gamewindow();
+    gamewindow *a = new gamewindow(30, nullptr);
     a->show();
 }
